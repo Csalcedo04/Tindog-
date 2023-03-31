@@ -1,0 +1,141 @@
+
+body{
+    font-family:'Montserrat';
+}
+/*etiquetas de titulos*/
+h1,h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
+.h2{
+    font-weight: bold;
+}
+#title{
+    background-color: #ff4c68;
+}
+
+#features{
+    background-color: #ffff;
+    position: relative;
+    z-index: 1;
+
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172 ;
+    color: #ffff;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172 ;
+    padding-bottom: 3%;
+}
+#pricing{
+    padding: 7% 15%;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.container{
+    padding: 7% 15%;
+}
+
+/* Nav bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 1.12rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+/* Dowland button */
+.dw-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-img{
+    width: 20.9%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+@media (max-width:1259.19px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    } 
+    
+}
+/* h3 */
+.objetive{
+    font-weight: bold;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+/* font */
+.font{
+    margin-bottom: 1rem;
+    color: #ef8172;
+   
+}
+.font:hover{
+    color: #ff4c68;
+}
+/* text */
+.text-ob{
+    
+    color: #8f8f8f;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+/*testimonial section*/
+.tetimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 0.75rem;
+}
+.press-logo{
+    width: 15%;
+    margin: 0.75rem 0.75rem 3.125rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/*Pricing*/
+.pr-colum{
+    padding: 0% 4%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
